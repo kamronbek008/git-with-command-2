@@ -1,0 +1,10 @@
+1-command
+git init
+* git init => git initialize => git boshla 
+2-command
+git add index.html
+* git add index.html => .git papkaga index.html fayldagi ma'lumotlarni qo'shadi
+* git add . => esa papkadagi barcha fayllar misol uchun (index.html , style.css) papkaga ma'lumotlarni qo'shadi
+3-command
+git status
+* git status qo'shilga yoki qo'shilmaga papkalar haqida ko'rsatadi 
