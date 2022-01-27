@@ -8,3 +8,9 @@ git add index.html
 3-command
 git status
 * git status qo'shilga yoki qo'shilmaga papkalar haqida ko'rsatadi 
+4-command
+git commit -m "Xohlagan xabaringiz"
+* git comit -m "Xohlagan xabaringiz" => 
+5-command
+git config -- global user.email "github dagi emailingiz"
+git config --global user.naame "githubgani usernameingiz"

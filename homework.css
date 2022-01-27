@@ -1,0 +1,854 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.navigation{
+    display: flex;
+    width: 1440px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.collection{
+    display: flex;
+    list-style-type: none;
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+flex: 1;
+
+/* BLACK */
+margin-left: 200px;
+color: #150C01;
+
+opacity: 0.6;
+}
+.home{
+ color: #DC780B;
+    display: flex;
+    list-style-type: none;
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+
+
+/* BLACK */
+margin-left: 200px;
+
+
+opacity: 0.6;
+}
+.navigation > img{
+    margin-left: 150px;
+}
+.collection li{
+    margin-left: 30px;
+}
+.navigation > button{
+    color: white;
+    background: #DC780B;
+    border-radius: 5px;
+    width: 155px;
+    height: 46px;
+    border: none;
+}
+.ovqat{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.making{
+    margin-top: 100px;
+}
+.making > h1{
+    font-family: Philosopher;
+font-style: normal;
+font-weight: bold;
+font-size: 48.83px;
+line-height: 58px;
+/* or 118% */
+
+
+/* BLACK */
+
+color: #150C01;
+}
+.making > p{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+
+/* BLACK */
+
+color: #150C01;
+
+opacity: 0.7;
+}
+
+.order{
+    color: white;
+    background: #DC780B;
+    border-radius: 5px;
+    width: 158px;
+    height: 50px;
+    border: none;
+}
+.food{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #DC780B;
+}
+.features{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+
+color: #DC780B;
+
+opacity: 0.7;
+margin-left: 0px;
+margin-top: 100px;
+}
+.with{
+    
+font-family: Philosopher;
+font-style: normal;
+font-weight: bold;
+font-size: 31.25px;
+line-height: 35px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: #150C01;
+margin-left: 600px;
+}
+.odin{
+    display: flex;
+}
+.qua{
+    
+font-family: Philosopher;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 24px;
+/* identical to box height, or 96% */
+margin-left: 50px;
+
+color: #150C01;
+}
+.bir{
+    margin-left: 200px;
+}
+.bir > p{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+text-align: center;
+
+color: #150C01;
+
+opacity: 0.7;
+}
+.bir > img{
+    margin-left: 100px;
+}
+.first{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.second > img{
+    border-radius: 20px;
+}
+.us{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+
+color: #DC780B;
+margin-left: 50px;
+margin-top: 70px;
+opacity: 0.7;
+}
+.third > h1{
+    font-family: Philosopher;
+font-style: normal;
+font-weight: bold;
+font-size: 31.25px;
+line-height: 41px;
+/* or 130% */
+
+margin-left: 50px;
+
+color: #150C01;
+}
+.there{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+
+color: #150C01;
+margin-left: 50px;
+opacity: 0.7;
+}
+.read{
+    color: white;
+    width: 142px;
+height: 42px;
+
+
+background: #DC780B;
+border-radius: 5px;
+border: none;
+margin-left: 50px;
+}
+.menu{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+
+color: #DC780B;
+margin-left: 700px;
+opacity: 0.7;
+margin-top: 50px;
+}
+.full{
+    font-family: Philosopher;
+font-style: normal;
+font-weight: bold;
+font-size: 31.25px;
+line-height: 24px;
+/* identical to box height, or 77% */
+
+display: flex;
+align-items: center;
+
+color: #150C01;
+margin-left: 560px;
+}
+.are{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #150C01;
+margin-left: 400px;
+opacity: 0.7;
+}
+.last{
+    display: flex;
+    margin-top: 50px;
+}
+.last1 > h1{
+    font-family: Philosopher;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 24px;
+/* identical to box height, or 96% */
+
+display: flex;
+align-items: center;
+margin-left: 70px;
+color: #150C01;
+}
+.last{
+    margin-left: 200px;
+}
+.last1 > img{
+    border-radius: 20px;
+}
+.last1 > p{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+display: flex;
+align-items: center;
+margin-left: 70px;
+color: #150C01;
+
+opacity: 0.7;
+}
+.collection2{
+    color: gold;
+    display: flex;
+    list-style-type: none;
+    margin-left: 150px;
+}
+.last2{
+    margin-left: 50px;   
+}
+.last2 > h1{
+    font-family: Philosopher;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 24px;
+/* identical to box height, or 96% */
+
+display: flex;
+align-items: center;
+margin-left: 70px;
+color: #150C01;
+}
+
+.last2 > img{
+    border-radius: 20px;
+}
+.last2 > p{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+display: flex;
+align-items: center;
+margin-left: 70px;
+color: #150C01;
+
+opacity: 0.7;
+}
+.last3{
+    margin-left: 50px;   
+}
+.last3 > h1{
+    font-family: Philosopher;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 24px;
+/* identical to box height, or 96% */
+
+display: flex;
+align-items: center;
+margin-left: 70px;
+color: #150C01;
+}
+
+.last3 > img{
+    border-radius: 20px;
+}
+.last3 > p{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+display: flex;
+align-items: center;
+margin-left: 70px;
+color: #150C01;
+
+opacity: 0.7;
+}
+
+
+
+.salad1 > img{
+    border-radius: 20px;
+}
+.salad1 > p{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+display: flex;
+align-items: center;
+margin-left: 70px;
+color: #150C01;
+
+opacity: 0.7;
+}
+.collection2{
+    color: gold;
+    display: flex;
+    list-style-type: none;
+    margin-left: 150px;
+}
+.salad1 > h1{
+    font-family: Philosopher;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 24px;
+/* identical to box height, or 96% */
+
+display: flex;
+align-items: center;
+margin-left: 70px;
+color: #150C01;
+}
+.salad{
+    margin-left: 200px;
+    margin-top: 20px;
+    display: flex;
+}
+.salad2{
+    margin-left: 50px;
+}
+
+.salad2 > img{
+    border-radius: 20px;
+}
+.salad2 > p{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+display: flex;
+align-items: center;
+margin-left: 70px;
+color: #150C01;
+
+opacity: 0.7;
+}
+.collection2{
+    color: gold;
+    display: flex;
+    list-style-type: none;
+    margin-left: 150px;
+}
+.salad2 > h1{
+    font-family: Philosopher;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 24px;
+/* identical to box height, or 96% */
+
+display: flex;
+align-items: center;
+margin-left: 70px;
+color: #150C01;
+}
+
+
+.salad3{
+    margin-left: 50px;
+}
+
+.salad3 > img{
+    border-radius: 20px;
+}
+.salad3 > p{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+display: flex;
+align-items: center;
+margin-left: 70px;
+color: #150C01;
+
+opacity: 0.7;
+}
+.collection2{
+    color: gold;
+    display: flex;
+    list-style-type: none;
+    margin-left: 150px;
+}
+.salad3 > h1{
+    font-family: Philosopher;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 24px;
+/* identical to box height, or 96% */
+
+display: flex;
+align-items: center;
+margin-left: 70px;
+color: #150C01;
+}
+.more{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+margin-top: 100px;
+margin-left: 700px;
+color: #DC780B;
+}
+.oxiri{
+    width: 1440px;
+    height: 518px;
+    background: #FBF1E7;
+    opacity: 0.4;
+    margin-left: 45px;
+    border: 1px solid transparent;
+}
+.take{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+
+color: #DC780B;
+
+opacity: 0.7;
+margin-left: 247px;
+margin-top: 114px;
+}
+.plane{
+    font-family: Philosopher;
+font-style: normal;
+font-weight: bold;
+font-size: 31.25px;
+line-height: 41px;
+/* or 130% */
+margin-left: 247px;
+
+
+color: #150C01;
+}
+.many{
+    
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+margin-left: 245px;
+
+color: #150C01;
+
+opacity: 0.7;
+}
+.main{
+    display: flex;
+}
+.app11{
+    width: 163px;
+    height: 48px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+.oxiri2 > img{
+    margin-right: 100px;
+}
+.test{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+margin-top: 100px;
+margin-left: 650px;
+color: #DC780B;
+
+opacity: 0.7;
+}
+.great{
+    font-family: Philosopher;
+font-style: normal;
+font-weight: bold;
+font-size: 31.25px;
+line-height: 24px;
+/* identical to box height, or 77% */
+
+display: flex;
+align-items: center;
+margin-left: 470px;
+color: #000000;
+}
+.you{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+margin-left: 400px;
+opacity: 0.7;
+}
+.imga{
+    border-radius: 50%;
+    margin-left: 700px;
+    margin-top: 70px;
+}
+.you2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    margin-left: 500px;
+    opacity: 0.7;
+}
+.collectio{
+    display: flex;
+    list-style-type: none;
+    color: gold;
+    margin-left: 670px;
+}
+.marketing{
+    color: gray;
+}
+.augt{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+text-transform: uppercase;
+margin-right: 100px;
+color: #000000;
+}
+.ocirgi{
+    width: 1440px;
+height: 448px;
+
+
+background: pink;
+border: 1px solid transparent;
+margin-left: 40px;
+
+}
+.contact{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+margin-top: 200px;
+margin-left:650px ;
+color: #DC780B;
+
+opacity: 0.7;
+}
+.stall{
+    font-family: Philosopher;
+font-style: normal;
+font-weight: bold;
+font-size: 31.25px;
+line-height: 41px;
+/* or 130% */
+
+display: flex;
+align-items: center;
+text-align: center;
+margin-left: 400px;
+color: #150C01;
+}
+.ocirgiii{
+    width: 750px;
+    height: 75px;
+    background-color: #fff;
+    margin-left: 330px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+.enter{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 41px;
+/* or 254% */
+
+display: flex;
+align-items: center;
+font-size: 20px;
+color: #000000;
+margin-left: 50px;
+opacity: 0.5;
+flex: 1;
+}
+.send{
+    width: 156px;
+height: 75px;
+
+
+background: #DC780B;
+border-radius: 10px;
+border: none;
+color: white;
+
+}
+.thelast{
+    width: 1440px;
+height: 429px;
+display: flex;
+background: #252525;
+}
+.www{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #FFFFFF;
+    margin-top: 20px;
+    opacity: 0.7;
+}
+.thelast1{
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.thelast2 > h1{
+    font-family: Philosopher;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 20px;
+margin-top: 150px;
+margin-left: 100px;
+color: #FFFFFF;
+}
+.land{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 100px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    opacity: 0.7; 
+}
+.thelast3 > h1{
+    font-family: Philosopher;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 150px;
+    margin-left: 100px;
+    color: #FFFFFF;  
+}
+.thelast4 > h1{
+    font-family: Philosopher;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 150px;
+    margin-left: 100px;
+    color: #FFFFFF;  
+}
+
